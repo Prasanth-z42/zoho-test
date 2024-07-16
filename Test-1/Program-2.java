@@ -39,7 +39,7 @@ public class Main {
             else if(ten == 0 && hun%10 == 0)
                 System.out.println(one_s[tou] + " "+tousand+" and "+one_s[one]);
             else
-                System.out.println(one_s[tou] + " " +tousand + " " + one_s[hh] + hun_s + ten_s[ten]+" " +one_s[one]);
+                System.out.println(one_s[tou] + " " +tousand + " " + one_s[hh] + " and " + ten_s[ten]+" " +one_s[one]);
         }
     }
 }
